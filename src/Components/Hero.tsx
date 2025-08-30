@@ -10,7 +10,7 @@ function Hero() {
         {/* Left Side - Text */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Hi, I'm <span className="text-blue-400">Saumya Bhardwaaj</span>
+            Hi,I&apos;m <span className="text-blue-400">Saumya Bhardwaaj</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold mb-6">
             A Passionate <span className="text-blue-300">Web Developer</span>
