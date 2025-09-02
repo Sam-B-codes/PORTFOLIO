@@ -17,7 +17,7 @@ function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
           <Link href="/" className="hover:text-blue-400 transition">Home</Link>
-          <Link href="/projects" className="hover:text-blue-400 transition">Projects</Link>
+          <Link href="/projects" className="hover:text-blue-400 transition">Project</Link>
           <Link href="/skills" className="hover:text-blue-400 transition">Skills</Link>
           <Link href="/contact" className="hover:text-blue-400 transition">Contact</Link>
         </div>
