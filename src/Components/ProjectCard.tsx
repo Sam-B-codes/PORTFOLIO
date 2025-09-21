@@ -34,7 +34,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             </span>
           ))}
         </div>
-        <Link href={`/project/${id}`}>
+        <Link href={`/projects/${id}`}>
           <button className="w-full py-2 px-4 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
             View More
           </button>

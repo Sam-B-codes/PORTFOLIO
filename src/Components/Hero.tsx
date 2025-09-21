@@ -40,7 +40,7 @@ function Hero() {
         {/* Right Side - Image */}
         <div className="flex-1 flex justify-center">
           <img
-            src="/profile.png" // replace with your image
+            src="/profile.jpg" // replace with your image
             alt="Profile"
             className="w-60 h-60 md:w-80 md:h-80 rounded-full object-cover shadow-lg border-4 border-blue-400"
           />
