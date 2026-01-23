@@ -1,24 +1,29 @@
-import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react"
+"use client"
+import React from "react"
+import { Mail, Phone, MapPin } from "lucide-react"
 
-export default function ContactPage() {
+function ContactSection() {
   return (
-    <section className="min-h-screen bg-gray-950 text-white py-20 px-6 md:px-16">
+    <section
+      id="contact"
+      className="scroll-mt-20 w-full bg-gray-950 text-white py-20 px-6 md:px-16"
+    >
       <div className="max-w-5xl mx-auto">
         {/* Heading */}
-        <h1 className="text-4xl md:text-5xl font-bold text-center text-blue-400 mb-4">
-          Contact Me
-        </h1>
+        <h2 className="text-4xl font-bold text-center text-blue-400 mb-4">
+          Get In Touch
+        </h2>
         <p className="text-center text-gray-400 mb-12">
-          Let’s connect for opportunities, projects, or collaborations.
+          Have a project, internship, or opportunity? Let’s talk.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Left: Contact Details */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          {/* Left Info */}
           <div className="space-y-6">
             <p className="text-gray-300 leading-relaxed">
-              I’m open to internships, full-time roles, freelance projects, and
-              collaborations. Feel free to reach out — I usually respond within
-              24 hours.
+              I’m always open to discussing new projects, internships,
+              collaborations, or learning opportunities. Feel free to reach
+              out — I’ll get back to you as soon as possible.
             </p>
 
             <div className="flex items-center gap-4">
@@ -41,31 +46,12 @@ export default function ContactPage() {
                 India
               </span>
             </div>
-
-            {/* Social Links */}
-            <div className="flex gap-6 pt-4">
-              <a
-                href="https://github.com/yourusername"
-                target="_blank"
-                className="text-gray-300 hover:text-blue-400 transition"
-              >
-                <Github size={28} />
-              </a>
-
-              <a
-                href="https://linkedin.com/in/yourusername"
-                target="_blank"
-                className="text-gray-300 hover:text-blue-400 transition"
-              >
-                <Linkedin size={28} />
-              </a>
-            </div>
           </div>
 
-          {/* Right: Contact Form */}
+          {/* Contact Form */}
           <form className="bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg space-y-6">
             <div>
-              <label className="block text-sm text-gray-300 mb-2">
+              <label className="block text-sm mb-2 text-gray-300">
                 Name
               </label>
               <input
@@ -76,7 +62,7 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <label className="block text-sm text-gray-300 mb-2">
+              <label className="block text-sm mb-2 text-gray-300">
                 Email
               </label>
               <input
@@ -87,7 +73,7 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <label className="block text-sm text-gray-300 mb-2">
+              <label className="block text-sm mb-2 text-gray-300">
                 Message
               </label>
               <textarea
@@ -109,3 +95,5 @@ export default function ContactPage() {
     </section>
   )
 }
+
+export default ContactSection

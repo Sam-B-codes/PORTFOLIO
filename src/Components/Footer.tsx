@@ -16,7 +16,8 @@ function Footer() {
         <div className="flex gap-6">
           <Link href="/" className="hover:text-blue-400 transition">Home</Link>
           <Link href="/projects" className="hover:text-blue-400 transition">Projects</Link>
-          <Link href="/skills" className="hover:text-blue-400 transition">Skills</Link>
+          {/* <Link href="/skills" className="hover:text-blue-400 transition">Skills</Link> */}
+           <a href="#skills" className="hover:text-blue-400">Skills</a>
           <Link href="/contact" className="hover:text-blue-400 transition">Contact</Link>
         </div>
 
